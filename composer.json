@@ -1,0 +1,16 @@
+{
+    "name": "izziaraffaele/laravel-orchestrate-php",
+    "description": "A Laravel service provider for Orchestrate DBaas",
+    "require": {
+        "php": ">=5.5",
+        "illuminate/support": "^5.1",
+        "andrefelipe/orchestrate-php": "^0.17.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raffaele Izzia",
+            "email": "izziaraffaele@gmail.com"
+        }
+    ]
+}
