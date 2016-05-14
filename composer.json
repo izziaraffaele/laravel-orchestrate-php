@@ -1,16 +1,24 @@
 {
-    "name": "izziaraffaele/laravel-orchestrate-php",
-    "description": "A Laravel service provider for Orchestrate DBaas",
-    "require": {
-        "php": ">=5.5",
-        "illuminate/support": "^5.1",
-        "andrefelipe/orchestrate-php": "^0.17.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Raffaele Izzia",
-            "email": "izziaraffaele@gmail.com"
-        }
-    ]
+  "name": "izziaraffaele/laravel-orchestrate-php",
+  "type": "library",
+  "version": "0.1.0",
+  "description": "A Laravel service provider for Orchestrate DBaas",
+  "keywords": ["laravel","orchestrate","orchestrate.io","client","guzzle","jmespath"],
+  "homepage": "https://github.com/izziaraffaele/laravel-orchestrate-php",
+  "require": {
+    "php": ">=5.5",
+    "illuminate/support": "^5.1",
+    "andrefelipe/orchestrate-php": "^0.17.0",
+    "kevinrob/guzzle-cache-middleware": "^1.4"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Raffaele Izzia",
+    "email": "izziaraffaele@gmail.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "IRWeb\\Orchestrate\\": "src/"
+    }
+  }
 }
